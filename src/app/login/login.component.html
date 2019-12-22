@@ -1,0 +1,22 @@
+<img class="begin1" src="assets/img/a.jpg" />
+
+<div class="table">
+  <div class="top">想吃就吃，能吃多吃</div>
+  <div class="content">
+    <div class="title">用户登录</div>
+    <div class="line" style="">
+      <div class="a">用户名</div> <input placeholder="请输入账号" type="text" name="" #username />
+    </div>
+    <div class="line">
+      <div class="b">密&nbsp;·&nbsp;码</div><input placeholder="请输入密码" type="password" name="密码" #password/>
+    </div>
+    <input class="logBut" type="button" name="登录" value="登录" (click)="login(username.value,password.value)" />
+    <div>
+      <input class="logBut1" type="button" name="注册" value="注册" (click)="register()" />
+    </div>
+  </div>
+  <div >
+    <input class="c" type="button" name="管理员登陆" value="管理员登陆" (click)="administerlogin()" />
+  </div>
+</div>
+

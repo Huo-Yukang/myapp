@@ -1,0 +1,12 @@
+<div><img class="a" src="assets/img/b.jpg" /></div>
+<div class="b">用户注册</div>
+<div class="c">用&nbsp;&nbsp;户&nbsp;&nbsp;名：</div>
+<input class="f" placeholder="请输入账号" type="text" name="用户名" #username />
+<div class="d">密 &nbsp; &nbsp; &nbsp; &nbsp;码：</div>
+<input class="g" placeholder="请输入密码" type="password" name="密码" #password />
+<div class="j"> 联系电话：</div>
+<input class="k" placeholder="请输入电话" type="text" name="联系电话" #usercallphone />
+<div class="l">收货地址：</div>
+<input class="m" placeholder="请输入地址" type="text" name="收货地址" #useraddress />
+<input class="h" type="button" name="确认注册" value="确认注册" (click)="login(username.value,password.value)" />
+<input class="i" type="button" name="返回" value="返回" (click)="back()" />

@@ -1,0 +1,18 @@
+.a{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;right: 0;left: 0;bottom: 0;margin: auto;
+}
+.b{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0px;left: 10px;
+}
+.c{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin-left: 60px;
+}

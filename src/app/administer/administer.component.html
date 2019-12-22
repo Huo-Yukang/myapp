@@ -1,0 +1,8 @@
+<div><img class="a" src="assets/img/c.jpg" /></div>
+<div class="b">管理员登陆</div>
+<div class="c">管理员账号：</div>
+<input class="d" placeholder="请输入账号" type="text" name="用户名" #username />
+<div class="e">管理员密码：</div>
+<input class="f" placeholder="请输入密码" type="password" name="密码" #password />
+<input class="g" type="button" name="管理员登录" value="管理员登录" (click)="login(username.value,password.value)" />
+<input class="h" type="button" name="返回" value="返回" (click)="back()" />

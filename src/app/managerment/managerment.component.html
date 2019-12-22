@@ -1,0 +1,20 @@
+<div><img class="a" src="assets/img/1.jpg" /></div>
+<div class="b">菜系管理</div>
+<div class="c"><a routerLink=''>安全退出</a></div>
+<div class="e">&nbsp;&nbsp;&nbsp;用&nbsp;&nbsp;户：</div>
+<div class="d">
+  <a routerLink="/index/addFood"><button > 添加食品</button></a>
+  <table class="tablelist">
+    <tr><th>序号</th><th>食品图片</th><th>食品编号</th><th>食品名称</th><th>价格</th><th>总量</th><th>操作</th></tr>
+    <tr *ngFor="let food of foods" class="badge">
+      <td>{{food.id}}</td>
+      <td></td>
+      <td>{{food.foodno}}</td>
+      <td>{{food.foodname}}</td>
+      <td>{{food.price}}</td>
+      <td>{{food.total}}</td>
+      <td> <a routerLink="/index/updateFood/{{food.id}}"><button>修改</button></a></td>
+    </tr>
+  </table>
+</div>
+
